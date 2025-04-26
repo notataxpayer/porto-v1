@@ -5,10 +5,10 @@ const PortfolioSection = () => {
   const portfolioItems = [
     {
       id: 1,
-      title: "E-commerce Store",
+      title: "Digital Gallery",
       category: "company",
-      description: "Online store with payment gateway integration",
-      image: "https://res.cloudinary.com/dnyrrcacd/image/upload/v1745667282/porto%20commerce%20web-v1/Screenshot_2025-04-26_183325_uy6jzf.png",
+      description: "Digital Gallery for artworks mainly themed cyberpunk",
+      image: "https://res.cloudinary.com/dnyrrcacd/image/upload/v1745683931/porto%20commerce%20web-v1/ss1_nh54zy.png",
       tags: ["React", "Node.js", "MongoDB"],
       link: "#"
     },
