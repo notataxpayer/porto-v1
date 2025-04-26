@@ -7,3 +7,13 @@
 .hover-glow:hover {
   animation: gentle-pulse 2s infinite;
 }
+.slick-dots li.slick-active div {
+  background-color: #7c3aed !important; /* purple-600 */
+}
+
+.slick-slide {
+  padding: 0 10px;
+}
+html {
+  overflow-x: hidden;
+}
