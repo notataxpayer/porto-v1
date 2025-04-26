@@ -1,10 +1,10 @@
 import React from 'react'
-import FreeQuoteForm from '../elements/FreeQuoteForm'
+import PortfolioSection from '../elements/Portofolio'
 
 const section3 = () => {
   return (
     <div className='w-1/2 justify-center'>
-        {/* <FreeQuoteForm/> */}
+        <PortfolioSection/>
         </div>
   )
 }

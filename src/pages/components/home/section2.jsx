@@ -99,8 +99,6 @@ const Section2 = () => {
             <TechStack/>
           </div>
 
-          
-
           {/* Proof Column */}
           <div className="sticky top-24 overflow-x-auto sm:overflow-x-hidden">
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 py-6 sm:p-8 rounded-2xl shadow-sm border border-purple-200">
@@ -136,5 +134,4 @@ const Section2 = () => {
     </section>
   );
 };
-
 export default Section2;

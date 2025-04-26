@@ -3,7 +3,7 @@ import React from 'react';
 const section1 = () => {
   return (
     <div className="flex flex-col w-screen items-center justify-center min-h-screen bg-gradient-to-b from-purple-300 to-purple-50 px-4 py-12 sm:px-6 lg:px-8">
-      <div className="mb-6 sm:mb-8 p-3 sm:p-4 bg-white rounded-full shadow-lg">
+      <div className="mb-6 sm:mb-8 p-3 sm:p-4 sm:my-12 xl:my-12  bg-white rounded-full shadow-lg">
         <img 
           src="https://res.cloudinary.com/dnyrrcacd/image/upload/v1745634778/porto%20commerce%20web-v1/logo-nobg_lzhhbj.png" 
           alt="Purple Technology Logo"
