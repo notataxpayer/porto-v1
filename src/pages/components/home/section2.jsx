@@ -103,10 +103,11 @@ const Section2 = () => {
 
           {/* Proof Column */}
           <div className="sticky top-24 overflow-x-auto sm:overflow-x-hidden">
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl shadow-sm border border-purple-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Why Choose My Services?</h3>
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 py-6 sm:p-8 rounded-2xl shadow-sm border border-purple-200">
+              <h3 className="text-2xl font-bold text-gray-900 px-8 mb-6">Why Choose My Services?</h3>
               
               {/* Stats */}
+              <div className='px-4 py-4 sm:p-0 sm:py-0'>
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="bg-white p-4 rounded-lg text-center shadow-xs">
                   <p className="text-3xl font-bold text-purple-600">5+</p>
@@ -117,6 +118,8 @@ const Section2 = () => {
                   <p className="text-sm text-gray-600">Client Satisfaction</p>
                 </div>
               </div>
+              </div>
+              
 
               {/* Testimonial */}
               <TestimonialSlider/>
