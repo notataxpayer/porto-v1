@@ -102,7 +102,7 @@ const Section2 = () => {
           
 
           {/* Proof Column */}
-          <div className="sticky top-24">
+          <div className="sticky top-24 overflow-x-auto sm:overflow-x-hidden">
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl shadow-sm border border-purple-200">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Why Choose My Services?</h3>
               
